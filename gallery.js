@@ -67,6 +67,7 @@ fetch("image_files.json")
   .then(response => response.json())
   .then(data => {
     images = data.image_files;
+    images.sort();
     displayImages(images);
   })
   .catch(error => console.error(error));
