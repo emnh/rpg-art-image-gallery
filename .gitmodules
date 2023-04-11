@@ -1,0 +1,3 @@
+[submodule "rpg_art"]
+	path = rpg_art
+	url = https://github.com/emnh/rpg_art
